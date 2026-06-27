@@ -1,0 +1,70 @@
+.container_descuentos{
+    width: 100vw;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.carrusel{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    align-content: center;
+    width: max-content;
+    transition: transform 1s ease-in-out;
+}
+.carrusel a{
+    width: 100vw;
+    height: 300px;
+    flex-shrink: 0;
+}
+.carrusel img{
+    width: 100%;
+    height: 100%;
+}
+.calculadora_img{
+    display:flex;
+    width: 1200px;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.calculadora_img a{
+    width: 1200px;
+    height: 500px;
+}
+.calculadora_img img{
+    width: 100%;
+    height: 100%;
+}
+/*==========================
+consejos
+=====================*/
+.consejos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual tamaño */
+  gap: 20px; /* El espacio de separación entre las columnas */
+  list-style: none; /* Quita los puntitos negros de la lista <ul> */
+  padding: 0;
+  width: 1200px;
+  height: 500px;
+  
+}
+.consejos-grid.consejo-enlace{
+    width: 1200px;
+  height: 500px;
+
+
+}
+.consejos-grid img{
+    width: 100%;
+    height: 100%;
+}
+.seccion-consejos{
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+
+}

@@ -1,0 +1,93 @@
+/*header general*/
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #999f54;
+}
+h1{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    color: #fcfff5;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #999f54;
+    height: 35px;
+    
+}
+nav a{
+    background-color: #dbdaaf;
+    border-radius: 10px;
+    padding: 10px;
+}
+body{
+    background-color: #FCFFF5;
+}
+
+/*inicio*/
+.inicio{
+    margin:10px;
+}
+.container_descuentos {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden; /* Oculta lo que se sale del cuadro */
+  position: relative;
+}
+
+.carrusel {
+  display: flex;
+  width: max-content;
+  transition: transform 1s ease-in-out;
+}
+
+/* Forzamos a que el enlace y la imagen midan lo mismo */
+.carrusel a {
+  display: block;
+  width: 1200px;
+  height: 500px;
+}
+
+.carrusel img {
+  width: 1200px;
+  height: 500px;
+  object-fit: contain;
+}
+
+/* consejos*/
+.consejos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+    
+
+
+}
+.consejo1{
+    background-color: white;
+}
+.titilo1{
+    background-color: grey;
+}
+.consejo2{
+    background-color: white;
+}
+.titilo2{
+    background-color: grey;
+}
+.consejo3{
+    background-color: white;
+}
+.titilo3{
+    background-color: grey;
+}
+.calculadoraRiego img{
+    max-width: 100%;
+}
+
